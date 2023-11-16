@@ -164,7 +164,7 @@
 .sectionInspiracao{
     margin-top: 17%;
     text-align: center;
-    width: 90rem;
+    width: 100vw;
     height: 25.0625rem;
     background-image: url('../../public/img/img-inspiração.png');
 }
