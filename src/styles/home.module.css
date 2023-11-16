@@ -119,6 +119,8 @@
 
 .sectionInfos{
     display: flex;
+    justify-content: space-around;
+    margin-top: 17%;
 }
 
 .textInfo h2{
@@ -129,6 +131,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 3%;
 }
 
 .textInfo p{
@@ -138,6 +141,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 10%;
     width: 36.4375rem;
     height: 11.125rem;
 }
@@ -151,6 +155,166 @@
     color: #FDEADC;
     font-family: Rounded Mplus 1c;
     font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10% 0 0 3%;
+}
+
+.sectionInspiracao{
+    margin-top: 17%;
+    text-align: center;
+    width: 90rem;
+    height: 25.0625rem;
+    background-image: url('../../public/img/img-inspiração.png');
+}
+
+.sectionInspiracao h2{
+    padding-top: 5.6%;
+    margin: auto;
+    width: 21.875rem;
+    color: #FFF;
+    font-family: Rounded Mplus 1c;
+    font-size: 2.5rem;                                      /* font para importar */
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sublinhados2{
+    display: flex;
+    justify-content: center;
+}
+
+.sublinhado2{
+    margin: 3% 3% 0 3%;
+    width: 16.1875rem;
+    height: 0.1875rem;
+    background-color: #FDEADC;
+}
+
+.sectionInspiracao p{
+    color: #FFF;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 4.2%;
+}
+
+.sectionInspiracao button{
+    width: 15.625rem;
+    height: 3.125rem;
+    border-radius: 2.8125rem;
+    background-color: #FDEADC;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;              /* font para importar */
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0;
+    margin-top: 4.5%;
+}
+
+.sectionAvaliacoes{
+    margin-top: 8%;
+}
+
+.sectionAvaliacoes h2{
+    margin: auto;
+    width: 41.125rem;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 2.5rem;                                      /* font para importar */
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.blocoAvaliacao{
+    width: 62.5rem;
+    height: 21.875rem;
+    margin: 6% auto 0 auto;
+    padding: 2.5% 4%;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.50);
+}
+
+.conteudoAvaliacoes p{
+    width: 55.4375rem;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;                                  /* font para importar */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.perfilAvaliador{
+    margin-top: 5%;
+    display: flex;
+}
+
+.infoAvaliador{
+    margin: 1.8% 0 0 1.5%;
+}
+
+.infoAvaliador h6{
+    color: #000;
+    font-family: Rounded Mplus 1c Bold;
+    font-size: 1.12rem;
+    font-style: normal;                                             /* font para importar */
+    font-weight: 700;
+    line-height: normal;
+}
+                                                                         
+.infoAvaliador p{
+    color: rgba(201, 24, 74, 0.67);
+    font-family: Rounded Mplus 1c;
+    font-size: 0.98rem;
+    font-style: normal;                                             /* font para importar */
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer{
+    background-color: #FDEADC;
+    margin-top: 12%;
+    width: 90rem;
+    height: 25rem;
+}
+
+.conteudoFooter{
+    margin-left: 5%;
+}
+
+.imgFooter{
+    margin-top: 3%;
+}
+
+.sublinhadoFooter{
+    width: 12.5rem;
+    height: 0.125rem;                   
+    margin-top: 3%;
+    background-color: #C9184A;
+}
+
+.conteudoFooter h4{
+    color: #000;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;                                   /* font para importar */
+    margin: 3% 0 2.5% 0;
+    line-height: normal;
+}
+
+.conteudoFooter p{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1rem;                                    /* font para importar */
     font-style: normal;
     font-weight: 500;
     line-height: normal;
