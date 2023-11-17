@@ -1,0 +1,109 @@
+.btnVoltar{
+    margin: 2.5% 0 0 3.5%;
+    border: 0;
+    background-color: white;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.textoConteudo{
+    margin: 6% auto;
+    align-items: center;
+    text-align: center;
+}
+
+.textoConteudo h1{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.textoConteudo p{
+    margin-top: 4%;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.figuras{
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 25rem;
+    margin: auto;
+    border: dashed #C9184A;
+    align-items: center;
+}
+
+.figuras svg{
+    margin: 0 3%;
+}
+
+.btnEnviar{
+    margin: 8% auto 2% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1%;
+    border: 0;
+    border-radius: 1.5625rem;
+    background: #FDEADC;
+    width: 12.5rem;
+    height: 5rem;
+    flex-shrink: 0;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+@media (max-width: 800px) {
+    .btnVoltar{
+        margin: 2.5% 0 0 3.5%;
+        font-size: 1.3rem;
+    }
+    
+    .textoConteudo{
+        margin: 6% auto;
+    }
+    
+    .textoConteudo h1{
+        font-size: 1.5rem;
+    }
+    
+    .textoConteudo p{
+        width: 50%;
+        margin: 4% auto 0 auto;
+        font-size: 1rem;
+    }
+    
+    .figuras{
+        width: 30rem;
+        height: 25rem;
+    }
+    
+    .figuras svg{
+        margin: 0 3%;
+    }
+    
+    .btnEnviar{
+        margin: 8% auto 2% auto;
+        padding: 0 1%;
+        border: 0;
+        width: 12rem;
+        height: 4.5rem;
+        font-size: 1.3rem;
+    }
+}
