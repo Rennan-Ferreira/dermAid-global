@@ -41,7 +41,7 @@ export default function Home() {
         
       <div className={styles.sectionInfos}> 
         <div className={styles.imgInfo}>
-          <Image src='/img/rosa-lupus-1.png' alt='rosácea e lúpus' width={430} height={470}/>
+          <Image className={styles.imgInfo} src='/img/rosa-lupus-1.png' alt='rosácea e lúpus' width={430} height={470}/>
         </div>
         <div className={styles.textInfo}>
           <h2>Mais Informação, Mais Saúde</h2>
