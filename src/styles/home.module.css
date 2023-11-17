@@ -590,9 +590,8 @@
     
     
     .circulo{
-        margin: 10% auto 0 auto;
-        width: 6vw;
-        height: 7vh;
+        width: 8vw;
+        height: 6vh;
         border-radius: 50%;
     }
     
@@ -638,59 +637,47 @@
     }
     
     .sublinhado2{
-        margin: 3% 3% 0 3%;
+        margin: 2% 3% 0 3%;
         width: 12rem;
         height: 0.1775rem;
     }
     
     .sectionInspiracao p{
         font-size: 1rem;
-        margin-top: 4%;
+        margin-top: 3.5%;
     }
     
     .sectionInspiracao button{
-        width: 15.625rem;
-        height: 3.125rem;  
-        font-size: 1.5rem;
-        margin-top: 4.5%;
+        width: 9rem;
+        height: 2rem;  
+        font-size: 1rem;
+        margin-top: 3%;
     }
     
     .sectionAvaliacoes{
-        margin-top: 8%;
+        margin-top: 7%;
     }
     
     .sectionAvaliacoes h2{
         margin: auto;
-        width: 41.125rem;
-        color: #C9184A;
-        font-family: Rounded Mplus 1c;
-        font-size: 2.5rem;                                      /* font para importar */
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
+        width: 32.4rem;
+        font-size: 2rem;                           
     }
     
     .blocoAvaliacao{
-        width: 62.5rem;
+        width: 40rem;
         height: 21.875rem;
         margin: 6% auto 0 auto;
-        padding: 2.5% 4%;
-        background: #FFF;
-        box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.50);
+        padding: 4% 4%;
     }
     
     .conteudoAvaliacoes p{
-        width: 55.4375rem;
-        color: #C9184A;
-        font-family: Rounded Mplus 1c;
-        font-size: 1.5rem;                                  /* font para importar */
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        width: 37rem;
+        font-size: 1.2rem;                             
     }
     
     .perfilAvaliador{
-        margin-top: 5%;
+        margin-top: 7%;
         display: flex;
     }
     
@@ -699,63 +686,231 @@
     }
     
     .infoAvaliador h6{
-        color: #000;
-        font-family: Rounded Mplus 1c Bold;
         font-size: 1.12rem;
-        font-style: normal;                                             /* font para importar */
-        font-weight: 700;
-        line-height: normal;
     }
                                                                              
     .infoAvaliador p{
-        color: rgba(201, 24, 74, 0.67);
-        font-family: Rounded Mplus 1c;
         font-size: 0.98rem;
-        font-style: normal;                                             /* font para importar */
-        font-weight: 400;
-        line-height: normal;
+    }
+}
+
+@media (max-width: 730px) {  
+    .faixaRosa{
+        height: 2.4rem;
     }
     
+    .Apps{
+        padding-top: 1.5%;
+        width: 20rem;
+    }
+        
+    .circulo{
+        width: 8vw;
+        height: 6vh;
+    }
+
+    .sectionInfos{
+        padding: 2%;
+    }
+    
+    .textInfo h2{
+        width: 15rem;
+        font-size: 1.5rem;                                 
+        margin-top: 10%;
+    }
+    
+    .textInfo p{
+        font-size: 0.7rem;                                      
+        margin-top: 10%;
+        width: 15rem;
+        height: 7rem;
+    }
+    
+    .textInfo button{
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        margin: 5% 0 0 3%;
+    }
+
+    .imgInfo{
+        width: 330px;
+        height: 340px;
+        padding-left: 3%;
+    }
+}
+
+@media (max-width: 650px){
+    .Apps{
+        padding-top: 2%;
+        width: 19rem;
+        height: 17.5rem;
+    }
+    
+    .Apps h5{
+        margin-top: 8%;
+        margin-bottom: 3%;
+        font-size: 1.3rem;
+    }
+    
+    .Apps p{
+        margin: 9% auto 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        width: 15.5625rem;
+    }
+    
+    .sublinhado{
+        width: 5.2rem;
+        height: 0.125rem;
+    }
+    
+    
+    .circulo{
+        margin: 10% auto 0 auto;
+        width: 8.8vw;
+        height: 6vh;
+    }
+
+    .imgInfo{
+        padding-left: 1%;
+    }
+    
+    .sectionAvaliacoes h2{
+        width: 26rem;
+        font-size: 1.6rem;                           
+    }
+    
+    .blocoAvaliacao{
+        width: 35rem;
+        height: 17rem;
+        margin: 6% auto 0 auto;
+        padding: 3% 3%;
+    }
+    
+    .conteudoAvaliacoes p{
+        width: 33rem;
+        font-size: 1rem;                             
+    }
+
     .footer{
-        background-color: #FDEADC;
-        margin-top: 12%;
-        width: 100%;
-        height: 25rem;
+        height: 20rem;
+    }  
+}
+
+@media (max-width: 600px) {
+    
+    .sectionInfos{
+        padding: 1%;
     }
     
-    .conteudoFooter{
-        margin-left: 5%;
+    .textInfo h2{
+        width: 13rem;
+        font-size: 1.2rem;                                 
+        margin-top: 15%;
     }
     
-    .imgFooter{
-        margin-top: 3%;
+    .textInfo p{
+        font-size: 0.7rem;                                      
+        margin-top: 10%;
+        width: 13rem;
+        height: 7rem;
     }
     
-    .sublinhadoFooter{
-        width: 12.5rem;
-        height: 0.125rem;                   
-        margin-top: 3%;
-        background-color: #C9184A;
+    .textInfo button{
+        width: 6.5rem;
+        height: 2rem;
+        font-size: 0.8rem;
+        margin: 6% 0 0 3%;
+    }
+
+    .imgInfo{
+        width: 310px;
+        height: 320px;
+        padding-left: 1%;
+    }
+
+    .sectionAvaliacoes h2{
+        width: 23rem;
+        font-size: 1.4rem;                           
     }
     
-    .conteudoFooter h4{
-        color: #000;
-        font-family: Rounded Mplus 1c;
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 500;                                   /* font para importar */
-        margin: 3% 0 2.5% 0;
-        line-height: normal;
+    .blocoAvaliacao{
+        width: 30rem;
+        height: 15rem;
+        margin: 6% auto 0 auto;
+        padding: 4% 4%;
     }
     
-    .conteudoFooter p{
-        color: #C9184A;
-        font-family: Rounded Mplus 1c;
-        font-size: 1rem;                                    /* font para importar */
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
+    .conteudoAvaliacoes p{
+        width: 27rem;
+        font-size: 0.8rem;                             
     }
+
+    .perfilAvaliador{
+        margin-top: 7%;
+    }
+    
+    .infoAvaliador h6{
+        font-size: 0.9rem;
+    }
+                                                                             
+    .infoAvaliador p{
+        font-size: 0.8rem;
+    }
+
+    .imgAvaliacao{
+        width: 60px;
+        height: 60px;
+    }
+
+@media (max-width: 540px) {
+       
+    .circulo{
+        width: 11vw;
+        height: 6vh;
+    }
+        
+    .circulo svg{
+        width: 5vw;
+        height: 5vh;
+    }
+
+    .sectionInfos{
+        padding: 1%;
+    }
+
+    .textInfo{
+        margin-left: 2%;
+    }
+    
+    .textInfo h2{
+        width: 13rem;
+        font-size: 1.2rem;                                 
+        margin-top: 8%;
+    }
+    
+    .textInfo p{
+        font-size: 0.7rem;                                      
+        margin-top: 9%;
+        width: 10rem;
+        height: 8rem;
+    }
+    
+    .textInfo button{
+        width: 6.5rem;
+        height: 2rem;
+        font-size: 0.8rem;
+        margin: 10% 0 0 3%;
+    }
+
+    .imgInfo{
+        width: 280px;
+        height: 290px;
+    }
+}
+
+}
+
 }
   
-}
