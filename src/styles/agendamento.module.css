@@ -1,0 +1,98 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdeadc80;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #c9184a;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    color: #c9184a;
+    margin-bottom: 20px;
+}
+
+.regionContainer {
+    margin-bottom: 20px;
+}
+
+.unavailableDayContent {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.unavailableDay {
+    background-color: #d9534f;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.timeContainer {
+    margin-top: 20px;
+}
+
+.timeContainer h3 {
+    margin-bottom: 10px;
+    color: #c9184a;
+}
+
+.timeButton {
+    background-color: #c9184a;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.timeButton:hover {
+    background-color: #a71437;
+}
+
+.scheduleButton {
+    background-color: #c9184a;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.scheduleButton:hover {
+    background-color: #a71437;
+}
+
+.scheduleButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.warningMessage {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.selectedTime {
+    background-color: #3498db;
+    color: #fff;
+}
