@@ -1,0 +1,213 @@
+.pagina{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.linhaRosa{
+    background-color: #C9184A;
+    width: 73.6875rem;
+    height: 0.9375rem;
+    margin: auto;
+}
+
+.topSection{
+    display: flex;
+    justify-content: center;
+}
+
+.textTopSection h1{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 5%;
+}
+
+.linhaRosa2{
+    width: 34.875rem;
+    height: 1.25rem;
+    background-color: #C9184A;
+}
+
+.textTopSection h5{
+    width: 37.875rem;
+    color: #FFD6B8;
+    font-family: Rounded Mplus 1c;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 10%;
+}
+
+.paragrafo{
+    color: #C9184A;
+    text-align: justify;
+    font-family: Rounded Mplus 1c;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 73.6875rem;
+    margin: auto;
+}
+
+.sectionInformations{
+    margin-top: 8%;
+    background-color: #C9184A;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+    margin: 0 0 2% 6%;
+}
+
+.titulo p{
+    color: #FFD6B8;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 2%;
+}
+
+.linhaBranca{
+    width: 12.5rem;
+    height: 0.375rem;
+    background-color: #FFD6B8;
+}
+
+.boxIntegrantes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.integrante{
+    width: 21.875rem;
+    height: 21.875rem;
+    margin: 2% 3%;
+    background-color: #CE3A64;
+}
+
+.integrante p{
+    color: #FFF;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    margin: 2%;
+}
+
+.integranteImg{
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: 13.25rem;
+    display: flex;
+    margin: auto;
+}
+
+.integrante h6{
+    color: #FFF;
+    font-family: Rounded Mplus 1c;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 3% 2% 2% 2%;
+}
+
+.boxTecnologias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tecnologia{
+    width: 15.25rem;
+    height: 16rem;
+    border-radius: 4.6875rem;
+    background-color: #FFF;
+    margin: 2% 2%;
+    display: flex;
+}
+
+.tecnologiaImg{
+    width: 12.5rem;
+    height: 7.01475rem;
+    display: flex;
+    margin: auto;
+}
+
+.parceiros{
+    width: 80.5625rem;
+    height: 45rem;
+    background-color: #FFF;
+    margin: auto;
+}
+
+.parceiros h3{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 4% 0 0 8%;
+}
+
+.boxParceiros{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parceirosImg{
+    width: 23.75rem;
+    height: 5.4375rem;
+}
+
+.linhaRose{
+    width: 66.8125rem;
+    height: 1.5625rem;
+    background-color: #FFD6B8;
+    margin: 10% auto 8% auto;
+}
+
+.parceirosBottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomeIntegrantes h4{
+    color: #000;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nomeIntegrantes p{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 29rem;
+}
+
+.logoFooter{
+    width: 200px;
+    height: 200px;
+}
+
+

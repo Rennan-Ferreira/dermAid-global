@@ -3,9 +3,9 @@ import styles from '../styles/home.module.css';
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.pagina}>
       <div className={styles.faixaRosa}></div>
-      <Image className={styles.topLogo} src='/img/logo-alliance.png' alt='logo' width={100} height={100}/>
+      <Image className={styles.topLogo} src='/img/derm-logo.png' alt='logo' width={100} height={100}/>
       <div className={styles.cabecalho}>
         <div className={styles.textCabecalho}>
           <h1>Pré-Diagóstico</h1>
@@ -76,7 +76,7 @@ export default function Home() {
       </div>
       <footer className={styles.footer}>
         <div className={styles.conteudoFooter}>
-          <Image  className={styles.imgFooter} src='/img/logo-alliance.png' alt='logo' width={100} height={100}/>
+          <Image  className={styles.imgFooter} src='/img/derm-logo.png' alt='logo' width={100} height={100}/>
           <div className={styles.sublinhadoFooter}></div>
           <h4>Integrantes:</h4>
           <p>Harthley Fernandes Teixeira Gomes - RM551359 - 1TDSPF</p>

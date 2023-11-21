@@ -1,7 +1,13 @@
+.pagina{
+    max-width: 1500px;
+    margin: auto;
+}
+
 .faixaRosa{
     background-color: rgba(201, 24, 74, 0.55);
     width: 100vw;
     height: 3.125rem;
+    max-width: 1440px;
 }
 
 .topLogo{
@@ -11,6 +17,7 @@
 
 .cabecalho{
     background-image: url('../../public/img/img-cabecalho.png');
+    max-width: 1440px;
     width: 100vw;
     height: 28.125rem;
 }
@@ -109,7 +116,7 @@
     justify-content: center;
     align-items: center;
     background-color: #FDEADC;
-    width: 6vw;
+    width: 5vw;
     height: 7vh;
     border-radius: 50%;
 }
@@ -181,6 +188,7 @@
     width: 100vw;
     height: 25.0625rem;
     background-image: url('../../public/img/img-inspiração.png');
+    max-width: 1440px;
 }
 
 .sectionInspiracao h2{
