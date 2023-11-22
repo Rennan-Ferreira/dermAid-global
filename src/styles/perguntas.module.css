@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Outfit:wght@200;300&family=Poppins:wght@200;400&display=swap');
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    font-family: Rounded Mplus 1c;
+    margin-top: 10vh;
+    color: #C9184A;
+
+}
+
+.opcoes{
+    width: 8%;
+    border-radius: 20px;
+}
+
+.enviar{
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: white;
+    background-color: #C9184A;
+    border-color: #C9184A;
+}
+
+.formulario{
+    font-family: Rounded Mplus 1c;
+    color: #C9184A;
+    font-size: 20px;
+}
+
+.pergunta{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+}
+
+.botao{
+    text-align: center;
+}
