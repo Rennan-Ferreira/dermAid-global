@@ -4,7 +4,7 @@ import styles from '../../../styles/sobreNos.module.css';
 export default function sobreNos() {
   return (
     <main className={styles.pagina}>
-        <Image src='/img/derm-logo.png' alt='logo dermAid' width={200} height={200}/>
+        <Image className={styles.topLogo} src='/img/derm-logo.png' alt='logo dermAid' width={200} height={200}/>
         <div className={styles.linhaRosa}></div>
         <div className={styles.topSection}>
           <div className={styles.textTopSection}>
@@ -13,7 +13,7 @@ export default function sobreNos() {
             <h5>A sua pele reflete o seu bem-estar. Informe-se sobre rosácea e lúpus e como cuidar deles.</h5>
           </div>
           <div>
-            <Image src='/img/derm-logo.png' alt='logo dermAid' width={573} height={566}/>
+            <Image className={styles.logoGrande} src='/img/derm-logo.png' alt='logo dermAid' width={573} height={566}/>
           </div>
         </div>
         <div className={styles.paragrafo}>
