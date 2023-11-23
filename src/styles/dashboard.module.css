@@ -1,54 +1,91 @@
-/* styles/dashboard.module.css */
-.dashboardContainer {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+/* Dashboard.module.css */
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FDEADC;
+  color: #C9184A;
+  height: 100vh;
+}
+
+.header,
+.footer {
+  width: 100%;
+  background-color: #C9184A;
+  color: #FFF;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px; 
+  margin-right: 10px; 
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.back-button {
+  background-color: #C9184A;
+  color: #FFF;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
   
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .menu {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: #C9184A;
-  }
-  
-  .menu a:hover {
-    text-decoration: underline;
-  }
-  
-  .title {
-    text-align: center;
-  }
-  
-  .appointmentsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .appointmentCard {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-  }
-  
-  .appointmentCard h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .appointmentCard p {
-    margin: 5px 0;
-  }
-  
+}
+
+.appointments,
+.symptoms {
+  flex: 1;
+  padding: 10px;
+  background-color: white;
+  margin: 0 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.appointment {
+  border-bottom: 1px solid #C9184A;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #FDEADC;
+}
+
+.chart-container {
+  width: 100%; 
+  max-width: 800px; 
+  margin-top: 20px;
+}
+
