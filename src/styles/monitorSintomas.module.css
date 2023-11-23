@@ -1,0 +1,153 @@
+.monitorContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #C9184A;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.headerContent {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.title {
+    text-align: center;
+    margin-top: 70px;
+    color: #FFBC8B;
+    font-size: 24px;
+    font-family: 'Rounded Mplus 1c', sans-serif;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.symptomsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.symptom {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.symptom h2 {
+    text-align: left;
+    margin-bottom: 5px;
+    color: #C9184A;
+}
+
+.intensitiesContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.intensityItem {
+    border: 5px solid #C9184A;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    color: #FFBC8B;
+    font-size: 16px;
+    font-family: 'Rounded Mplus 1c', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.intensityItem:hover {
+    background-color: #822540;
+}
+
+.selected {
+    background-color: #822540;
+}
+
+.centeredButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.saveButton {
+    background-color: #C9184A;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.saveButton:hover {
+    background-color: #822540;
+}
+
+.saveButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+    .symptomsContainer {
+        margin-top: 10px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .intensityItem {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .centeredButtonContainer {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 430px) {
+    .symptomsContainer {
+        margin-top: 5px;
+    }
+
+    .symptom {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .intensityItem {
+        width: 70px;
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .centeredButtonContainer {
+        margin-top: 5px;
+    }
+}
