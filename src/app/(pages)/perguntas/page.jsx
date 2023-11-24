@@ -1,9 +1,11 @@
 "use client";
 import { useState } from 'react';
 import styles from '../../../styles/perguntas.module.css';
-import Link from 'next/Link';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 export default function Perguntas() {
+  const navigate = useRouter();
   const [cpf, setCpf] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -532,6 +534,7 @@ export default function Perguntas() {
 
       if (apiResponse15.ok) {
         console.log('Requisição 15 enviada com sucesso!');
+        navigate.push('/');
       } else {
         console.error('Erro na chamada da API Java 15:', apiResponse15.statusText);
         console.log('Corpo da resposta 15:', await apiResponse15.text());
@@ -620,6 +623,13 @@ export default function Perguntas() {
     <div>
       <div>
         <div>
+        <div className={styles.header}>
+        <div className={styles.headerContent}>
+            <div className={styles.backButton}>
+              <Link href="/" className={styles.backButton}>&#8592;</Link>
+            </div>
+            </div>
+            </div>
           <div className={styles.cabecalho}>
           <h2>Formulário</h2>
           </div>
@@ -659,11 +669,9 @@ export default function Perguntas() {
               </div>
             ))}
           <div className={styles.botao}>
-            {/*<Link href='/enviarFoto'>*/}
             <button type="submit" disabled={loading} className={styles.enviar}>
               {loading ? 'Aguarde...' : 'Enviar respostas'}
             </button>
-            {/*</Link>*/}
             </div>
           </form>
         </div>
