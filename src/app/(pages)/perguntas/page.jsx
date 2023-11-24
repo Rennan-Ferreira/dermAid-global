@@ -1,6 +1,7 @@
 "use client";
 import { useState } from 'react';
-import styles from '../../../styles/perguntas.module.css'
+import styles from '../../../styles/perguntas.module.css';
+import Link from 'next/Link';
 
 export default function Perguntas() {
   const [cpf, setCpf] = useState('');
@@ -658,9 +659,11 @@ export default function Perguntas() {
               </div>
             ))}
           <div className={styles.botao}>
+            {/*<Link href='/enviarFoto'>*/}
             <button type="submit" disabled={loading} className={styles.enviar}>
               {loading ? 'Aguarde...' : 'Enviar respostas'}
             </button>
+            {/*</Link>*/}
             </div>
           </form>
         </div>

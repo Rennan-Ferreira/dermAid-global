@@ -1,7 +1,13 @@
+.pagina{
+    max-width: 1500px;
+    margin: auto;
+}
+
 .faixaRosa{
     background-color: rgba(201, 24, 74, 0.55);
     width: 100vw;
     height: 3.125rem;
+    max-width: 1440px;
 }
 
 .topLogo{
@@ -11,6 +17,7 @@
 
 .cabecalho{
     background-image: url('../../public/img/img-cabecalho.png');
+    max-width: 1440px;
     width: 100vw;
     height: 28.125rem;
 }
@@ -53,6 +60,7 @@
     font-weight: 500;
     line-height: normal;
     margin-top: 3%;
+    cursor: pointer;
 }
 
 .sectionApps{
@@ -61,12 +69,22 @@
     justify-content: space-around;
 }
 
+.sectionApps a{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+
 .Apps{
     text-align: center;
     width: 20.625rem;
     height: 18.75rem;
     background-color: #C9184A;
     border-radius: 4.8125rem;
+    cursor: pointer;
     box-shadow: 0px 4px 50px 0px #FDEADC;
 }
 
@@ -107,18 +125,31 @@
     justify-content: center;
     align-items: center;
     background-color: #FDEADC;
-    width: 6vw;
+    width: 5vw;
     height: 7vh;
     border-radius: 50%;
 }
 
-.circulo svg{
+.svg{
     width: 4vw;
     height: 4vh;
 }
 
+.Apps:hover,
+.Apps:hover h5,
+.Apps:hover p{
+    background-color: #FDEADC; 
+    color: #C9184A; 
+}
+
+.Apps:hover .sublinhado{
+    background-color: #C9184A;
+} 
+
 .sectionInfos{
     display: flex;
+    justify-content: space-around;
+    margin-top: 17%;
 }
 
 .textInfo h2{
@@ -129,6 +160,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 3%;
 }
 
 .textInfo p{
@@ -138,6 +170,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 10%;
     width: 36.4375rem;
     height: 11.125rem;
 }
@@ -154,4 +187,762 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 10% 0 0 3%;
+    cursor: pointer;
 }
+
+.sectionInspiracao{
+    margin-top: 17%;
+    text-align: center;
+    width: 100vw;
+    height: 25.0625rem;
+    background-image: url('../../public/img/img-inspiração.png');
+    max-width: 1440px;
+}
+
+.sectionInspiracao h2{
+    padding-top: 5.6%;
+    margin: auto;
+    width: 21.875rem;
+    color: #FFF;
+    font-family: Rounded Mplus 1c;
+    font-size: 2.5rem;                                      /* font para importar */
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sublinhados2{
+    display: flex;
+    justify-content: center;
+}
+
+.sublinhado2{
+    margin: 3% 3% 0 3%;
+    width: 16.1875rem;
+    height: 0.1875rem;
+    background-color: #FDEADC;
+}
+
+.sectionInspiracao p{
+    color: #FFF;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 4.2%;
+}
+
+.sectionInspiracao button{
+    width: 15.625rem;
+    height: 3.125rem;
+    border-radius: 2.8125rem;
+    background-color: #FDEADC;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;              /* font para importar */
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0;
+    margin-top: 4.5%;
+    cursor: pointer;
+}
+
+.sectionAvaliacoes{
+    margin-top: 8%;
+}
+
+.sectionAvaliacoes h2{
+    margin: auto;
+    width: 41.125rem;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 2.5rem;                                      /* font para importar */
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.blocoAvaliacao{
+    width: 62.5rem;
+    height: 21.875rem;
+    margin: 6% auto 0 auto;
+    padding: 2.5% 4%;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.50);
+}
+
+.conteudoAvaliacoes p{
+    width: 55.4375rem;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;                                  /* font para importar */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.perfilAvaliador{
+    margin-top: 5%;
+    display: flex;
+}
+
+.infoAvaliador{
+    margin: 1.8% 0 0 1.5%;
+}
+
+.infoAvaliador h6{
+    color: #000;
+    font-family: Rounded Mplus 1c Bold;
+    font-size: 1.12rem;
+    font-style: normal;                                             /* font para importar */
+    font-weight: 700;
+    line-height: normal;
+}
+                                                                         
+.infoAvaliador p{
+    color: rgba(201, 24, 74, 0.67);
+    font-family: Rounded Mplus 1c;
+    font-size: 0.98rem;
+    font-style: normal;                                             /* font para importar */
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer{
+    background-color: #FDEADC;
+    margin-top: 12%;
+    width: 100%;
+    height: 25rem;
+}
+
+.conteudoFooter{
+    margin-left: 5%;
+}
+
+.imgFooter{
+    margin-top: 3%;
+}
+
+.sublinhadoFooter{
+    width: 12.5rem;
+    height: 0.125rem;                   
+    margin-top: 3%;
+    background-color: #C9184A;
+}
+
+.conteudoFooter h4{
+    color: #000;
+    font-family: Rounded Mplus 1c;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;                                   /* font para importar */
+    margin: 3% 0 2.5% 0;
+    line-height: normal;
+}
+
+.conteudoFooter p{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 1rem;                                    /* font para importar */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width: 1000px) {
+    .cabecalho{
+        height: 25rem;
+    }
+    
+    .textCabecalho h1{
+        font-size: 2.5rem;
+        padding-top: 5%;
+    }
+    
+    .textCabecalho p{
+        font-size: 1.7rem;
+    }
+    
+    .textCabecalho button{
+        width: 14rem;
+        font-size: 1.2rem;
+        margin-top: 4%;
+    }
+
+    .sectionApps{
+        margin-top: 15%;
+    }
+    
+    .Apps{
+        text-align: center;
+        width: 19.593rem;
+        height: 17.81rem;
+    }
+    
+    .Apps h5{
+        font-size: 1.2rem; /*aqui*/
+    }
+    
+    .Apps p{
+        font-size: 0.9rem; /*aqui*/
+    }
+    
+    .circulo{
+        width: 6.7vw; /*aqui*/
+    }
+    
+    .svg{
+        width: 3.8vw; /*aqui*/
+        height: 3.8vh; /*aqui*/
+    }
+
+    .sectionInfos{
+        margin-top: 15%; /*aqui*/
+    }
+    
+    .textInfo h2{
+        width: 21.75rem;
+        font-size: 2rem;                                            
+        margin-top: 3%;
+    }
+    
+    .textInfo p{
+        font-size: 1.2rem;                                             
+        margin-top: 10%;
+        width: 33rem;
+    }
+    
+    .textInfo button{
+        width: 10rem;
+        height: 3.7rem;
+        font-size: 1.2rem;
+        margin: 7% 0 0 3%;
+    }
+
+    .imgInfo{
+        width: 420px;
+        height: 430px;
+    }
+
+    .sectionInspiracao{
+        margin-top: 15%;
+        height: 25rem;
+    }
+    
+    .sectionInspiracao h2{
+        padding-top: 5.2%;
+        font-size: 2.2rem;                                  
+    }
+    
+    .sublinhado2{
+        margin: 3% 3% 0 3%;
+        width: 15rem;
+    }
+    
+    .sectionInspiracao p{
+        font-size: 1.2rem;
+        margin-top: 4.5%;
+    }
+    
+    .sectionInspiracao button{
+        width: 15rem;
+        height: 3rem;
+        font-size: 1.2rem;
+        margin-top: 7%;
+    }
+
+    .sectionAvaliacoes{
+        margin-top: 6%;
+    }
+    
+    .sectionAvaliacoes h2{
+        width: 33rem;
+        font-size: 2rem;        
+    }
+    
+    .blocoAvaliacao{
+        width: 55rem;
+        height: 20rem;
+        margin: 6% auto 0 auto;
+        padding: 2.5% 4%;
+    }
+    
+    .conteudoAvaliacoes p{
+        width: 50rem;
+        font-size: 1.4rem;                         
+    }
+
+    @media (max-width: 920px) {
+        
+        .Apps{
+            width: 18.025rem;
+            height: 16.38rem;
+        }
+        
+        .circulo{
+            width: 7.4vw; /*aqui*/
+        }
+        
+        .textInfo h2{
+            width: 18rem;
+            font-size: 1.7rem;                                            
+            margin-top: 4%;
+        }
+        
+        .textInfo p{
+            font-size: 1.2rem;                                             
+            margin-top: 10%;
+            width: 28rem;
+        }
+        
+        .textInfo button{
+            height: 3.4rem;
+        }
+    
+        .imgInfo{
+            width: 400px;
+            height: 410px;
+        }
+        
+        .sectionInspiracao p{
+            font-size: 1.2rem;
+            margin: auto;
+            width: 25rem;
+            margin-top: 4.5%;
+        }
+    }
+
+    @media (max-width: 885px) {
+    
+        .Apps{
+            width: 17.241rem;
+            height: 15.672rem;
+        }
+        
+        .Apps p{
+            font-size: 0.9rem; /*aqui*/
+        }
+        
+        .circulo{
+            width: 8vw; /*aqui*/
+        }
+    
+        .textInfo h2{
+            width: 18rem;
+            font-size: 1.7rem;                                            
+            margin-top: 4%;
+        }
+        
+        .textInfo p{
+            font-size: 1.1rem;                                             
+            margin-top: 8%;
+            width: 25rem;
+        }
+        
+        .textInfo button{
+            height: 3.2rem;
+            margin-top: 5%;
+        }
+    
+        .imgInfo{
+            width: 380px;
+            height: 390px;
+        }
+        
+        .blocoAvaliacao{
+            width: 45rem;
+            height: 20rem;
+            margin: 6% auto 0 auto;
+            padding: 4% 4%;
+        }
+        
+        .conteudoAvaliacoes p{
+            width: 39.5rem;
+            font-size: 1.2rem;                         
+        }
+    }
+
+@media (max-width: 768px){
+
+    .cabecalho{
+        background-image: url('../../public/img/img-cabecalho-768px.png');
+        height: 15.02rem;
+    }
+    
+    .textCabecalho h1{
+        font-size: 1.5rem;
+        padding-top: 4%;
+    }
+    
+    .textCabecalho p{
+        font-size: 1rem;
+        padding-top: 3%;
+        width: 36%;
+    }
+    
+    .textCabecalho button{
+        width: 11rem;
+        height: 2rem;
+        font-size: 1rem;
+        margin-top: 4%;
+    }
+    
+    .sectionApps{
+        display: block;
+        margin: 13% auto 0 auto;
+    }
+    
+    .Apps{
+        padding-top: 2%;
+        margin: 0 auto 5% auto;
+        width: 20.625rem;
+        height: 18.75rem;
+    }
+    
+    .Apps h5{
+        margin-top: 8%;
+        margin-bottom: 3%;
+        font-size: 1.5rem;
+    }
+    
+    .Apps p{
+        margin: 9% auto 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        width: 15.5625rem;
+    }
+    
+    .sublinhado{
+        width: 5.625rem;
+        height: 0.125rem;
+    }
+    
+    
+    .circulo{
+        width: 8vw;
+        height: 6vh;
+        border-radius: 50%;
+    }
+    
+    .svg{
+        width: 4vw;
+        height: 4vh;
+    }
+    
+    .sectionInfos{
+        margin-top: 13%;
+    }
+    
+    .textInfo h2{
+        width: 21.75rem;
+        font-size: 2rem;                                 
+        margin-top: 3%;
+    }
+    
+    .textInfo p{
+        font-size: 1rem;                                      
+        margin-top: 10%;
+        width: 20rem;
+        height: 11.125rem;
+    }
+    
+    .textInfo button{
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+        margin: 6% 0 0 3%;
+    }
+    
+    .sectionInspiracao{
+        margin-top: 14%;
+        height: 13.2rem;
+        background-image: url('../../public/img/img-inspiração-768px.png');
+    }
+    
+    .sectionInspiracao h2{
+        padding-top: 3.5%;
+        width: 21.875rem;
+        font-size: 1.5rem;                          
+    }
+    
+    .sublinhado2{
+        margin: 2% 3% 0 3%;
+        width: 12rem;
+        height: 0.1775rem;
+    }
+    
+    .sectionInspiracao p{
+        font-size: 1rem;
+        margin-top: 3.5%;
+    }
+    
+    .sectionInspiracao button{
+        width: 9rem;
+        height: 2rem;  
+        font-size: 1rem;
+        margin-top: 3%;
+    }
+    
+    .sectionAvaliacoes{
+        margin-top: 7%;
+    }
+    
+    .sectionAvaliacoes h2{
+        margin: auto;
+        width: 32.4rem;
+        font-size: 2rem;                           
+    }
+    
+    .blocoAvaliacao{
+        width: 40rem;
+        height: 21.875rem;
+        margin: 6% auto 0 auto;
+        padding: 4% 4%;
+    }
+    
+    .conteudoAvaliacoes p{
+        width: 37rem;
+        font-size: 1.2rem;                             
+    }
+    
+    .perfilAvaliador{
+        margin-top: 7%;
+        display: flex;
+    }
+    
+    .infoAvaliador{
+        margin: 1.8% 0 0 1.5%;
+    }
+    
+    .infoAvaliador h6{
+        font-size: 1.12rem;
+    }
+                                                                             
+    .infoAvaliador p{
+        font-size: 0.98rem;
+    }
+}
+
+@media (max-width: 730px) {  
+    .faixaRosa{
+        height: 2.4rem;
+    }
+    
+    .Apps{
+        padding-top: 1.5%;
+        width: 20rem;
+    }
+        
+    .circulo{
+        width: 8vw;
+        height: 6vh;
+    }
+
+    .sectionInfos{
+        padding: 2%;
+    }
+    
+    .textInfo h2{
+        width: 15rem;
+        font-size: 1.5rem;                                 
+        margin-top: 10%;
+    }
+    
+    .textInfo p{
+        font-size: 0.7rem;                                      
+        margin-top: 10%;
+        width: 15rem;
+        height: 7rem;
+    }
+    
+    .textInfo button{
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        margin: 5% 0 0 3%;
+    }
+
+    .imgInfo{
+        width: 330px;
+        height: 340px;
+        padding-left: 3%;
+    }
+}
+
+@media (max-width: 650px){
+    .Apps{
+        padding-top: 2%;
+        width: 19rem;
+        height: 17.5rem;
+    }
+    
+    .Apps h5{
+        margin-top: 8%;
+        margin-bottom: 3%;
+        font-size: 1.3rem;
+    }
+    
+    .Apps p{
+        margin: 9% auto 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        width: 15.5625rem;
+    }
+    
+    .sublinhado{
+        width: 5.2rem;
+        height: 0.125rem;
+    }
+    
+    
+    .circulo{
+        margin: 10% auto 0 auto;
+        width: 8.8vw;
+        height: 6vh;
+    }
+
+    .imgInfo{
+        padding-left: 1%;
+    }
+    
+    .sectionAvaliacoes h2{
+        width: 26rem;
+        font-size: 1.6rem;                           
+    }
+    
+    .blocoAvaliacao{
+        width: 35rem;
+        height: 17rem;
+        margin: 6% auto 0 auto;
+        padding: 3% 3%;
+    }
+    
+    .conteudoAvaliacoes p{
+        width: 33rem;
+        font-size: 1rem;                             
+    }
+
+    .footer{
+        height: 20rem;
+    }  
+}
+
+@media (max-width: 600px) {
+    
+    .sectionInfos{
+        padding: 1%;
+    }
+    
+    .textInfo h2{
+        width: 13rem;
+        font-size: 1.2rem;                                 
+        margin-top: 15%;
+    }
+    
+    .textInfo p{
+        font-size: 0.7rem;                                      
+        margin-top: 10%;
+        width: 13rem;
+        height: 7rem;
+    }
+    
+    .textInfo button{
+        width: 6.5rem;
+        height: 2rem;
+        font-size: 0.8rem;
+        margin: 6% 0 0 3%;
+    }
+
+    .imgInfo{
+        width: 310px;
+        height: 320px;
+        padding-left: 1%;
+    }
+
+    .sectionAvaliacoes h2{
+        width: 23rem;
+        font-size: 1.4rem;                           
+    }
+    
+    .blocoAvaliacao{
+        width: 30rem;
+        height: 15rem;
+        margin: 6% auto 0 auto;
+        padding: 4% 4%;
+    }
+    
+    .conteudoAvaliacoes p{
+        width: 27rem;
+        font-size: 0.8rem;                             
+    }
+
+    .perfilAvaliador{
+        margin-top: 7%;
+    }
+    
+    .infoAvaliador h6{
+        font-size: 0.9rem;
+    }
+                                                                             
+    .infoAvaliador p{
+        font-size: 0.8rem;
+    }
+
+    .imgAvaliacao{
+        width: 60px;
+        height: 60px;
+    }
+
+@media (max-width: 540px) {
+       
+    .circulo{
+        width: 11vw;
+        height: 6vh;
+    }
+        
+    .circulo svg{
+        width: 5vw;
+        height: 5vh;
+    }
+
+    .sectionInfos{
+        padding: 1%;
+    }
+
+    .textInfo{
+        margin-left: 2%;
+    }
+    
+    .textInfo h2{
+        width: 13rem;
+        font-size: 1.2rem;                                 
+        margin-top: 8%;
+    }
+    
+    .textInfo p{
+        font-size: 0.7rem;                                      
+        margin-top: 9%;
+        width: 10rem;
+        height: 8rem;
+    }
+    
+    .textInfo button{
+        width: 6.5rem;
+        height: 2rem;
+        font-size: 0.8rem;
+        margin: 10% 0 0 3%;
+    }
+
+    .imgInfo{
+        width: 280px;
+        height: 290px;
+    }
+}
+
+}
+
+}
+  
