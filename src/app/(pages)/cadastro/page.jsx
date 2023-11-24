@@ -1,6 +1,7 @@
 "use client"
 import styles from '../../../styles/cadastro.module.css'
 import Image from 'next/image'
+import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
@@ -44,7 +45,7 @@ export default function Cadastro() {
 
       if (apiResponse.ok) {
         console.log('Requisição enviada com sucesso!');
-        navigate.push('/homeDois');
+        navigate.push('/');
       } else {
         console.error('Erro na chamada da API Java:', apiResponse.statusText);
         console.log('Corpo da resposta:', await apiResponse.text());
