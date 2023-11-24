@@ -44,7 +44,7 @@ export default function Monitorar() {
       <div className={styles.header}>
         <div className={styles.headerContent}>
             <div className={styles.backButton}>
-              <Link href="/" className={styles.backButton}>Voltar</Link>
+              <Link href="/" className={styles.backButton}>&#8592;</Link>
             </div>
             <div className={styles.logo}>
               <Image src="/caminho/do/seu/logo.png" alt="Logo" width={50} height={50} />
@@ -78,6 +78,7 @@ export default function Monitorar() {
           Salvar Sintomas
         </button>
       </div>
+     
     </div>
   );
 }

@@ -1,0 +1,101 @@
+.topSection{
+    margin: auto;
+    text-align: center;
+}
+
+.topSection h1{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 6%;
+}
+
+.topSection h5{
+    color: #FFD6B8;
+    text-align: center;
+    font-family: Rounded Mplus 1c;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 4%;
+}
+
+.topSection p{
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 75%;
+    margin: 2% auto;
+}
+
+.bottomSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomSection a{
+    text-decoration: none;
+    margin: auto;
+}
+
+.bottomSection p {
+    color: #FFD6B8;
+    text-align: center;
+    font-family: Rounded Mplus 1c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 55%;
+    margin: 2% auto;
+}
+
+.bottomSection button{
+    margin: 1% auto;
+    cursor: pointer;
+}
+
+.btnAgendar{
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #C9184A;
+    color: #FDEADC;
+    font-family: Rounded Mplus 1c;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: 0;
+    transition: 300ms;
+}
+
+.btnAgendar:hover{
+    border: solid 1px black;
+}
+
+.btnVoltar{
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #FDEADC;
+    border: 0;
+    color: #C9184A;
+    font-family: Rounded Mplus 1c;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 300ms;
+}
+
+.btnVoltar:hover{
+    border: solid 1px black;
+}
