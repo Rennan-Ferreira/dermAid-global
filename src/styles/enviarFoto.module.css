@@ -1,28 +1,47 @@
-.btnVoltar{
-    margin: 2.5% 0 0 3.5%;
-    border: 0;
-    background-color: white;
-    color: #C9184A;
-    font-family: Rounded Mplus 1c;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    cursor: pointer;
+.container {
+    position: relative;
+    min-height: 100vh;
 }
 
-.pagina a{
+.header {
+    background-color: #C9184A;
+    padding: 10px 0;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+}
+.backButton{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+}
+.footer {
+    width: 100%;
+    background-color: #C9184A;
+    color: #FFF;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+.pagina a {
     text-decoration: none;
     cursor: pointer;
 }
 
-.textoConteudo{
-    margin: 6% auto;
+.textoConteudo {
+    margin: 20px auto;
     align-items: center;
     text-align: center;
 }
 
-.textoConteudo h1{
+.textoConteudo h1 {
     color: #C9184A;
     font-family: Rounded Mplus 1c;
     font-size: 1.5rem;
@@ -31,7 +50,7 @@
     line-height: normal;
 }
 
-.textoConteudo p{
+.textoConteudo p {
     margin-top: 4%;
     color: #C9184A;
     font-family: Rounded Mplus 1c;
@@ -41,7 +60,7 @@
     line-height: normal;
 }
 
-.figuras{
+.figuras {
     display: flex;
     justify-content: center;
     width: 50rem;
@@ -49,14 +68,25 @@
     margin: auto;
     border: dashed #C9184A;
     align-items: center;
+    overflow: hidden;
+}
+.figuras img {
+    max-width: 100%; 
+    max-height: 100%; 
 }
 
-.svg{
-    margin: 0 3%;
+.imagemSelecionada {
+    text-align: center;
+    margin-top: 10px;
 }
 
-.btnEnviar{
-    margin: 8% auto 2% auto;
+.imagemSelecionada img {
+    max-width: 100%; 
+    max-height: 200px; 
+}
+
+.btnEnviar {
+    margin: 4% auto 2% auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -74,38 +104,39 @@
     font-weight: 800;
     line-height: normal;
     cursor: pointer;
+    margin-bottom: 80px;
 }
 
 @media (max-width: 800px) {
-    .btnVoltar{
+    .btnVoltar {
         margin: 2.5% 0 0 3.5%;
         font-size: 1.3rem;
     }
-    
-    .textoConteudo{
+
+    .textoConteudo {
         margin: 6% auto;
     }
-    
-    .textoConteudo h1{
+
+    .textoConteudo h1 {
         font-size: 1.5rem;
     }
-    
-    .textoConteudo p{
+
+    .textoConteudo p {
         width: 50%;
         margin: 4% auto 0 auto;
         font-size: 1rem;
     }
-    
-    .figuras{
+
+    .figuras {
         width: 30rem;
         height: 25rem;
     }
-    
-    .svg{
+
+    .svg {
         margin: 0 3%;
     }
-    
-    .btnEnviar{
+
+    .btnEnviar {
         margin: 8% auto 2% auto;
         padding: 0 1%;
         border: 0;

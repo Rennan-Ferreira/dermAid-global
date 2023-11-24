@@ -3,8 +3,10 @@ import Link from 'next/link';
 import styles from '../../../styles/monitorSintomas.module.css';
 import Image from 'next/image';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Monitorar() {
+  const router = useRouter();
   const symptoms = [
     'Vermelhidão',
     'Coceira',
@@ -36,10 +38,13 @@ export default function Monitorar() {
   };
 
   const handleSaveSymptoms = () => {
-    console.log('Sintomas salvos:', selectedIntensities);
+    alert('Sintomas salvos-', selectedIntensities);
+    router.push('/');
+    
   };
 
   return (
+    <div className={styles.container}>
     <div className={styles.monitorContainer}>
       <div className={styles.header}>
         <div className={styles.headerContent}>
@@ -47,7 +52,7 @@ export default function Monitorar() {
               <Link href="/" className={styles.backButton}>&#8592;</Link>
             </div>
             <div className={styles.logo}>
-              <Image src="/caminho/do/seu/logo.png" alt="Logo" width={50} height={50} />
+              <Image src="/img/derm-logo.png" alt="Logo" width={80} height={80} />
             </div>
           </div>
       </div>
@@ -78,7 +83,10 @@ export default function Monitorar() {
           Salvar Sintomas
         </button>
       </div>
-     
-    </div>
+      </div>
+      <footer className={styles.footer}>
+      <p>DermAId</p>
+    </footer>
+  </div>
   );
 }
