@@ -121,7 +121,7 @@
     border-radius: 50%;
 }
 
-.circulo svg{
+.svg{
     width: 4vw;
     height: 4vh;
 }
@@ -385,7 +385,7 @@
         width: 6.7vw; /*aqui*/
     }
     
-    .circulo svg{
+    .svg{
         width: 3.8vw; /*aqui*/
         height: 3.8vh; /*aqui*/
     }
@@ -618,7 +618,7 @@
         border-radius: 50%;
     }
     
-    .circulo svg{
+    .svg{
         width: 4vw;
         height: 4vh;
     }
