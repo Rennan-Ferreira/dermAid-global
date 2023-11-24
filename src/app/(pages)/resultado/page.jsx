@@ -7,7 +7,7 @@ export default function Resultado() {
     <div className={styles.container}>
     <header className={styles.header}>
     <div className={styles.backButton}>
-              <Link href="/" className={styles.backButton}>&#8592;</Link>
+              <Link href="/enviarFoto" className={styles.backButton}>&#8592;</Link>
             </div>
     </header>
 
