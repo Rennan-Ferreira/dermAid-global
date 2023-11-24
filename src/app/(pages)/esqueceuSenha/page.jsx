@@ -7,20 +7,17 @@ export default function EsqueceuSenha() {
   const [email, setEmail] = useState('');
   const [novaSenha, setNovaSenha] = useState('');
   const [cpf, setCpf] = useState('');
-  const [step, setStep] = useState(1); // Controla a etapa do processo
+  const [step, setStep] = useState(1); 
 
   const handleSubmitEmail = async (e) => {
     e.preventDefault();
     
-    // Aqui você pode adicionar lógica para enviar o e-mail e validar se o e-mail é válido
-    // Após o envio do e-mail, avance para a próxima etapa
     setStep(2);
   };
 
   const handleSubmitNovaSenha = async (e) => {
     e.preventDefault();
     
-    // Aqui você pode fazer a requisição POST para a API com os dados necessários
     const data = {
       email,
       novaSenha,
@@ -28,7 +25,6 @@ export default function EsqueceuSenha() {
     };
 
     try {
-      // Fazer a requisição POST para a API
       const response = await fetch('http://localhost:8080/ProjetoDermAId/rest/EsqueceuSenha', {
         method: 'POST',
         headers: {
@@ -37,17 +33,13 @@ export default function EsqueceuSenha() {
         body: JSON.stringify(data),
       });
 
-      // Verificar se a requisição foi bem-sucedida
       if (response.ok) {
         console.log('Senha alterada com sucesso!');
-        // Você pode adicionar lógica aqui para redirecionar o usuário ou exibir uma mensagem de sucesso
       } else {
         console.error('Erro ao alterar senha:', response.statusText);
-        // Você pode adicionar lógica aqui para lidar com erros
       }
     } catch (error) {
       console.error('Erro na requisição:', error.message);
-      // Você pode adicionar lógica aqui para lidar com erros
     }
   };
 
@@ -110,3 +102,4 @@ export default function EsqueceuSenha() {
     </div>
   );
 }
+

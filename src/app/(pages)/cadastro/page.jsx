@@ -80,7 +80,9 @@ export default function Cadastro() {
     <div className={styles.outerContainer}>
       <div className={styles.innerContainer}>
         <div className={styles.leftSide}>
+
           <h2 className={styles.title}>Faça seu <span className={styles.cadastroText}>CADASTRO</span>. Já possui conta? Faça seu <span className={styles.signupText}>Login </span>ou Cadastre-se</h2>
+
           <form className={styles.form} onSubmit={handleSubmit}  action="">
             <div className={styles.inputContainer}>
               <label htmlFor="nome">NOME:</label>
