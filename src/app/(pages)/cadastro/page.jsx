@@ -81,32 +81,32 @@ export default function Cadastro() {
       <div className={styles.innerContainer}>
         <div className={styles.leftSide}>
 
-          <h2 className={styles.title}>Faça seu <span className={styles.cadastroText}>CADASTRO</span>. Já possui conta? Faça seu <span className={styles.signupText}>Login </span>ou Cadastre-se</h2>
+          <h2 className={styles.title}>Faça seu <span className={styles.cadastroText}>CADASTRO</span>. Já possui conta? Faça seu <span className={styles.signupText}><a href="/login">Login</a></span></h2>
 
           <form className={styles.form} onSubmit={handleSubmit}  action="">
             <div className={styles.inputContainer}>
               <label htmlFor="nome">NOME:</label>
-              <input type="text" id="nome" name="nome" value={formData.nome} onChange={handleChange} required />
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" value={formData.nome} onChange={handleChange} required />
             </div>
             <div className={styles.inputContainer}>
               <label htmlFor="email">EMAIL:</label>
-              <input type="text" id="email" name="email" value={formData.email} onChange={handleChange} required />
+              <input type="text" id="email" name="email" placeholder="Seu email" value={formData.email} onChange={handleChange} required />
             </div>
             <div className={styles.inputContainer}>
               <label htmlFor="cpf">CPF:</label>
-              <input type="text" id="cpf" name="cpf" value={formData.cpf} onChange={handleChange} required />
+              <input type="text" id="cpf" name="cpf" placeholder="Seu cpf" value={formData.cpf} onChange={handleChange} required />
             </div>
             <div className={styles.inputContainer}>
               <label htmlFor="idade">IDADE:</label>
-              <input type="text" id="idade" name="idade" value={formData.idade} onChange={handleChange} required />
+              <input type="text" id="idade" name="idade" placeholder="Sua idade" value={formData.idade} onChange={handleChange} required />
             </div>
             <div className={styles.inputContainer}>
               <label htmlFor="senha">SENHA:</label>
-              <input type="password" id="senha" name="senha" value={formData.senha} onChange={handleChange} required />  
+              <input type="password" id="senha" name="senha" placeholder="Sua senha" value={formData.senha} onChange={handleChange} required />  
             </div>
             
-            <label htmlFor="genero" className='gender'>GÊNERO:</label>
-            <input type="text" id="genero" name="genero" value={formData.genero} onChange={handleChange} required />
+            <label htmlFor="genero" className={styles.gender}>GÊNERO:</label>
+            <input type="text" id="genero" name="genero" placeholder="Seu genero" value={formData.genero} onChange={handleChange} required />
             <button type="submit" className={styles.button} disabled={loading}>
             {loading ? 'Aguarde...' : 'CADASTRAR-SE'}
             </button>
