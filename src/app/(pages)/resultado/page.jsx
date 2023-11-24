@@ -1,9 +1,18 @@
+import Link from 'next/link'
 import styles from '../../../styles/resultado.module.css'
-import Link from 'next/Link'
+import Image from 'next/image'
 
 export default function Resultado() {
   return (
+    <div className={styles.container}>
+    <header className={styles.header}>
+    <div className={styles.backButton}>
+              <Link href="/" className={styles.backButton}>&#8592;</Link>
+            </div>
+    </header>
+
     <main>
+      
         <div className={styles.topSection}>
             <h1>80% de chance de ser Lúpus</h1>
             <h5>O tratamento inclui:</h5>
@@ -18,5 +27,9 @@ export default function Resultado() {
             <Link href='/'><button className={styles.btnVoltar}>Voltar para a tela inicial</button></Link>
         </div>
     </main>
+    <footer className={styles.footer}>
+        <p>DermAId</p>
+      </footer>
+    </div>
   )
 }

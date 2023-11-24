@@ -1,9 +1,41 @@
-.topSection{
+.container {
+    position: relative;
+    min-height: 100vh;
+   
+}
+
+.header {
+    background-color: #C9184A;
+    padding: 10px 0;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #C9184A;
+    color: #FFF;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.backButton{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+}
+.topSection {
     margin: auto;
     text-align: center;
 }
 
-.topSection h1{
+.topSection h1 {
     color: #C9184A;
     font-family: Rounded Mplus 1c;
     font-size: 40px;
@@ -13,7 +45,7 @@
     margin-top: 6%;
 }
 
-.topSection h5{
+.topSection h5 {
     color: #FFD6B8;
     text-align: center;
     font-family: Rounded Mplus 1c;
@@ -24,7 +56,7 @@
     margin-top: 4%;
 }
 
-.topSection p{
+.topSection p {
     color: #C9184A;
     font-family: Rounded Mplus 1c;
     font-size: 20px;
@@ -35,12 +67,13 @@
     margin: 2% auto;
 }
 
-.bottomSection{
+.bottomSection {
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
 }
 
-.bottomSection a{
+.bottomSection a {
     text-decoration: none;
     margin: auto;
 }
@@ -57,12 +90,12 @@
     margin: 2% auto;
 }
 
-.bottomSection button{
+.bottomSection button {
     margin: 1% auto;
     cursor: pointer;
 }
 
-.btnAgendar{
+.btnAgendar {
     width: 400px;
     height: 80px;
     border-radius: 50px;
@@ -77,11 +110,11 @@
     transition: 300ms;
 }
 
-.btnAgendar:hover{
+.btnAgendar:hover {
     border: solid 1px black;
 }
 
-.btnVoltar{
+.btnVoltar {
     width: 400px;
     height: 80px;
     border-radius: 50px;
@@ -96,6 +129,6 @@
     transition: 300ms;
 }
 
-.btnVoltar:hover{
+.btnVoltar:hover {
     border: solid 1px black;
 }

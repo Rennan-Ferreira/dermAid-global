@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from '../styles/home.module.css';
-import Link from 'next/Link';
+import Link from 'next/link';
+
 
 export default function Home() {
  return (
@@ -35,7 +36,7 @@ export default function Home() {
           <p>Monitore os seus sintomas e registre as suas mudanças na pele.</p>
         </div>
         </Link>
-        <Link href='/perguntas'>
+        <Link href='/agendamento'>
         <div className={styles.Apps}>
           <div className={styles.circulo}>
           <Image className={styles.svg} src='/svg/agende.svg' alt='agenda' width={100} height={50}/>
