@@ -1,4 +1,5 @@
 import styles from '../../../styles/resultado.module.css'
+import Link from 'next/Link'
 
 export default function Resultado() {
   return (
@@ -13,8 +14,8 @@ export default function Resultado() {
         </div>
         <div className={styles.bottomSection}>
             <p>Recomendamos que você consulte um dermatologista e inicie o tratamento o mais breve possivel.</p>
-            <button className={styles.btnAgendar}>Agendar Consulta</button>
-            <button className={styles.btnVoltar}>Voltar para a tela inicial</button>
+            <Link href='/agendamento'><button className={styles.btnAgendar}>Agendar Consulta</button></Link>
+            <Link href='/'><button className={styles.btnVoltar}>Voltar para a tela inicial</button></Link>
         </div>
     </main>
   )

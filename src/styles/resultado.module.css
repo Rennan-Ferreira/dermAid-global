@@ -40,6 +40,11 @@
     flex-direction: column;
 }
 
+.bottomSection a{
+    text-decoration: none;
+    margin: auto;
+}
+
 .bottomSection p {
     color: #FFD6B8;
     text-align: center;
