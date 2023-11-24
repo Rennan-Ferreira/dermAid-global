@@ -68,8 +68,22 @@
     margin: auto;
     border: dashed #C9184A;
     align-items: center;
+    overflow: hidden;
+}
+.figuras img {
+    max-width: 100%; 
+    max-height: 100%; 
 }
 
+.imagemSelecionada {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.imagemSelecionada img {
+    max-width: 100%; 
+    max-height: 200px; 
+}
 
 .btnEnviar {
     margin: 4% auto 2% auto;
