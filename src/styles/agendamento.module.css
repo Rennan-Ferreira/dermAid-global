@@ -5,16 +5,21 @@
     background-color: #fdeadc80;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
 }
 
 .header {
     text-align: left;
     padding: 20px 40px;
+    background-color: #C9184A;
+    margin-bottom: 20px;
+   
 }
+
 
 .header a {
     text-decoration: none;
-    color: #c9184a;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -96,3 +101,13 @@
     background-color: #3498db;
     color: #fff;
 }
+
+.footer {
+    background-color: #C9184A;
+    color: #FFF;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
