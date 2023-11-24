@@ -93,7 +93,7 @@ export default function Agendamento() {
   return (
     <div>
       <div className={styles.header}>
-        <Link href="/">VOLTAR PARA A HOME</Link>
+        <Link href="/">&#8592;</Link>
       </div>
       <div className={styles.container}>
         <div className={styles.title}>
@@ -156,7 +156,11 @@ export default function Agendamento() {
         {!isDateSelectable && (
           <p className={styles.warningMessage}>Selecione uma data válida para visualizar os horários disponíveis.</p>
         )}
+       
       </div>
+      <footer className={styles.footer}>
+          <p>DermAId</p>
+        </footer>
     </div>
   );
 }
