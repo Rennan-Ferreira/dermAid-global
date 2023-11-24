@@ -8,11 +8,30 @@ export default function EsqueceuSenha() {
   const [novaSenha, setNovaSenha] = useState('');
   const [cpf, setCpf] = useState('');
   const [step, setStep] = useState(1); 
-
+    const [emailError, setEmailError] = useState('');
+    const [generalError, setGeneralError] = useState('');
+    
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+    setEmailError('');
+    setGeneralError(''); 
+  };
+  
+    const validateEmail = () => {
+      if (!email.includes('@') || !email.includes('.com')) {
+        setEmailError('Email inválido');
+        return false;
+      }
+      return true;
+    };
+    
   const handleSubmitEmail = async (e) => {
     e.preventDefault();
-    
-    setStep(2);
+    if (validateEmail()) {
+      setStep(2);
+    } else {
+      setGeneralError('Por favor, corrija os campos.');
+    }
   };
 
   const handleSubmitNovaSenha = async (e) => {
@@ -41,6 +60,7 @@ export default function EsqueceuSenha() {
     } catch (error) {
       console.error('Erro na requisição:', error.message);
     }
+  
   };
 
   return (
@@ -67,6 +87,7 @@ export default function EsqueceuSenha() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
+                 {emailError && <p className={styles.errorMessage}>{emailError}</p>}
               </div>
               <button type="submit" className={styles.button}>
                 Enviar
