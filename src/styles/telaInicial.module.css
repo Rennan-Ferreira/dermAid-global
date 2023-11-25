@@ -1,0 +1,143 @@
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.rectangle {
+    background: linear-gradient(0deg, #FFF9D8, white 50%);
+    height: 56.25rem;
+    width: 81.25rem;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.25rem;
+    height: 56.25rem;
+    width: 81.25rem;
+}
+
+.title {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #C9184A;
+}
+
+.buttons {
+    display: flex;
+}
+
+.login {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5rem;
+    color: #C9184A;
+    background-color: white;
+    border: 0.125rem solid #C9184A;
+    padding: 0.625rem 1.25rem;
+    margin-right: 0.625rem;
+}
+
+.signup {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #FDEADC;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    color: #C9184A;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    height: 56.25rem;
+    width: 81.25rem;
+}
+
+.text {
+    width: 25rem;
+}
+
+.description {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #C9184A;
+    width: 31.25rem;
+}
+
+.line {
+    height: 18.75rem;
+    width: 0.125rem;
+    background-color: #C9184A;
+}
+
+.logo {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.25rem;
+}
+
+.diseases {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 43.75rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.titleLupus {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #C9184A;
+    margin-bottom: 0.625rem;
+}
+
+.txtLupus {
+    font-size: 1rem;
+    color: #C9184A;
+    margin-bottom: 0.625rem;
+    width: 18.75rem;
+}
+
+.titleRosacea {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #C9184A;
+}
+
+.txtRosacea {
+    font-size: 1rem;
+    color: #C9184A;
+    margin-bottom: 0.625rem;
+    width: 18.75rem;
+}
+
+.miniRectangle {
+    height: 9.375rem;
+    width: 30.3125rem;
+    background-color: #C9184A;
+    position: relative;
+}
